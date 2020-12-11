@@ -22,8 +22,6 @@ const uniqueEntriesReducer = (res, acc) => {
 }
 
 /**
- * Log.
- *
  * @description
  * Log implements a G-Set CRDT and adds ordering.
  *

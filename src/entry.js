@@ -8,6 +8,10 @@ const IPLD_LINKS = ['next', 'refs']
 const getWriteFormatForVersion = v => v === 0 ? 'dag-pb' : 'dag-cbor'
 const getWriteFormat = e => Entry.isEntry(e) ? getWriteFormatForVersion(e.v) : getWriteFormatForVersion(e)
 
+/*
+ * @description
+ * An ipfs-log entry
+ */
 class Entry {
   /**
    * Create an Entry
