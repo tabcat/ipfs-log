@@ -49,7 +49,7 @@
     "nyc": "^15.0.1",
     "orbit-db-benchmark-runner": "^1.0.3",
     "orbit-db-storage-adapter": "^0.5.3",
-    "orbit-db-test-utils": "~0.12.1",
+    "orbit-db-test-utils": "github:tabcat/orbit-db-test-utils#support-latest",
     "rimraf": "~3.0.2",
     "standard": "~16.0.3",
     "webpack": "~4.44.2",
