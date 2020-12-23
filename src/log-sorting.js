@@ -14,7 +14,7 @@ const Clock = require('./lamport-clock')
  */
 function LastWriteWins (a, b) {
   // Ultimate conflict resolution (take the first/left arg)
-  const First = (a, b) => a
+  const First = (a, b) => 1
   // Sort two entries by their clock id, if the same always take the first
   const sortById = (a, b) => SortByClockId(a, b, First)
   // Sort two entries by their clock time, if concurrent,
