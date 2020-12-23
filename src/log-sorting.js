@@ -76,7 +76,7 @@ function SortByClockId (a, b, resolveConflict) {
 /**
  * A wrapper function to throw an error if the results of a passed function return zero
  * @param {function(a, b)} [tiebreaker] The tiebreaker function to validate.
- * @returns {function(a, b)} 1 if a is greater, -1 if b is greater
+ * @returns {number} 1 if a is greater, -1 if b is greater
  * @throws {Error} if func ever returns 0
  */
 function NoZeroes (func) {
