@@ -926,7 +926,7 @@ Object.keys(testAPIs).forEach((IPFS) => {
       })
 
       it('creates a log from v1 entry', async () => {
-        const log = await Log.fromEntry(ipfs, testIdentity, v1Entries[v1Entries.length - 1], { logId: 'A' })
+        const log = await Log.fromEntry(ipfs, testIdentity, [Entry.toEntry(v1Entries[v1Entries.length - 1], { includeHash: true })], { logId: 'A' })
         assert.strictEqual(log.length, 5)
         assert.deepStrictEqual(log.values, v1Entries.map(e => Entry.toEntry(e, { includeHash: true })))
       })
