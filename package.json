@@ -49,12 +49,16 @@
     "nyc": "^15.0.1",
     "orbit-db-benchmark-runner": "^1.0.3",
     "orbit-db-storage-adapter": "^0.5.3",
-    "orbit-db-test-utils": "~0.12.1",
+    "orbit-db-test-utils": "^1.0.1",
     "rimraf": "~3.0.2",
     "standard": "~16.0.3",
     "webpack": "~4.44.2",
     "webpack-cli": "~3.3.12",
-    "yargs": "^16.1.1"
+    "yargs": "^16.1.1",
+    "ipfs": "^0.52.0",
+    "ipfs-http-client": "~48.1.0",
+    "ipfsd-ctl": "^7.1.0",
+    "go-ipfs": "^0.7.0"
   },
   "standard": {
     "env": "mocha",
